@@ -9,34 +9,95 @@
     <style>
         body{
             background-color: rgb(255, 255, 255);
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         }
         hr{
-            border: none;
+        border: none;
             height: 2px;
             background-color: red;
+            margin: 2px;
         }
         a{
             color: rgb(0, 0, 0);
+            position: relative;
+            top: 0px;
+            text-align: right;
+            
         }
         h1{
             color: rgb(3, 3, 3);
+            position: relative;
+            top: 20px;
+            font-size: 60px;
+            margin-bottom: 5px;
+            
         }
-         body{
+        h2{
+            position: relative;
+            font-size: 40px;
+        }
+        h3{
+            position: relative;
+            font-size: 40px;
+        }
+        h4{
+            position: relative;
+            font-size: 70px;
+            margin-bottom: -15px;
+        }
+        body{
             position: relative;
         }
-       .logo {
+        .escudo{
             position: absolute;
-            top: 0px;
+            top: -20px;
             left: 10px;
         }
-        
-        .textoCentrado {
-            text-align: right;
+        header{
+            margin-top: -10px;
         }
+        nav{
+            display: flex;
+            text-align: right;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        .boton {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: rgb(15, 15, 15);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 0px;
+            justify-content: flex-end;
+        }
+
         .textoCentrado {
             text-align: center;
         }
+        .river{
+        height: 1350px;
+        width: auto;
+        width: 1350px;
+        height: auto;
+        }
+        .franja{
+        background-color: black;
+        display: flex;
+        width: 1350px;
+        margin-left: auto;
+        }
+        p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 20px;
+        text-align: justify;
+        }
+        p{
+            font-size: 30px;
+        }
+        
     </style>
 
 
@@ -44,23 +105,42 @@
 
 
 <body>
-    <h1 style="text-align: center;">MUNDO RIVER</h1>
-        <img src="imagenes/logo river.png" alt="logo river" width="150">
-    <hr>
-
-
-    
-   
-   
     <header>
-        <nav>
-            <a href="index.html">Home</a><button type="reset"></button>
-            <a href="Historia.html">Historia</a><button type="reset"></button>
-            <a href="Jugadores.html">Jugadores</a><button type="reset"></button>
-        </nav>
+    <h1 style="text-align: center;">MUNDO RIVER</h1>
+     <img src="imagenes\escudo de river.png" class="escudo" width="70">
+    
+    
+            <div class="franja">
+            <a href="index.html" class="boton">Home</a>
+            <a href="Historia.html" class="boton">Historia</a>
+            <a href="https://www.tiendariver.com/?utm_source=me-ar_sitio_river_header&utm_medium=link.html" class="boton">Tienda river</a>
+            </div>
+            
     </header>
+    <img src="imagenes\river.jpg" class="river" height="-200">
     <hr>
-    </header>
+    <h2 style="text-align: left;">EL NUEVO MONUMENTAL PARA MAS DE 100.000 PERSONA</h2>
+
+    <img src="imagenes/proyecto monumental.jfif" class="proyecto" width="800">
+
+    <p>River volvió a hacer historia. La dirigencia tiene avanzado desde hace tiempo el proyecto de techado y ampliación del Monumental: el club convertirá al estadio en el único de Sudamérica con el 100% de sus tribunas cubiertas y una capacidad cercana a los 100.000 lugares. Además, el plan es inmediato: las obras comenzarían en mayo.</p>
+    <p>Tras la ambiciosa remodelación iniciada en la gestión D’Onofrio y ejecutada durante el mandato de Brito, el nuevo oficialismo encabezado por Stefano Di Carlo fijó al plan de obras como uno de los tres ejes centrales de su gestión, junto al fútbol y la internacionalización de la marca River.</p>
+    <p>Aunque el club manejó el tema con cautela, desde hace meses la decisión está tomada. Ya se realizaron estudios de viabilidad estructural y financiera para una inversión que rondaría los 100 millones de dólares.</p>
+    <p>El futuro está en marcha: El Monumental ya se prepara para una nueva transformación.</p>
+    <hr>
+
+    <h3 style="text-align: left;">RIVER EN LA COPA SUDAMERICANA 2026</h3>
+
+    <img src="imagenes/grupo sudamericana.jfif" class="grupo" width="800">
+
+    <p>River Plate afronta la fase de grupos de la Copa Sudamericana 2026 con grandes expectativas, siendo uno de los equipos más importantes del certamen. Tras no haber participado en la Copa Libertadores, el conjunto millonario se posiciona como candidato a avanzar con autoridad a la siguiente fase.</p>
+    <p>Uno de los puntos clave para River será hacerse fuerte en el Estadio Monumental, donde suele imponer condiciones gracias al apoyo de su hinchada. Además, el equipo deberá mantener regularidad en los partidos fuera de casa, que suelen ser más exigentes debido a los viajes y los diferentes contextos de juego.</p>
+    <p>En cuanto al estilo, River buscará ser protagonista, con posesión de pelota, presión alta y un juego ofensivo característico. La fase de grupos será fundamental para consolidar el equipo, probar variantes tácticas y llegar en óptimas condiciones a las instancias decisivas.</p>
+    <p>En conclusión, River Plate tiene todo para ser líder de su grupo en la Copa Sudamericana 2026, aunque deberá demostrarlo dentro de la cancha enfrentando a rivales que también sueñan con avanzar en el torneo. Si logra imponer su jerarquía, será uno de los grandes candidatos al título.</p>
+
+    <h4 style="text-align: left;">PROXIMOS PARTIDOS</h4>
+    <hr>
+    <img src="imagenes/PROXIMOS PARTIDOS DE RIVER.jpg" class="PARTIDOS">
 
     <footer>
         <p>&copy; 2026 Mundo River. Todos los derechos reservados.</p>
